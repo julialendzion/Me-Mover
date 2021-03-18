@@ -1,0 +1,22 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="593.99" height="538.95" viewBox="0 0 593.99 538.95">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-3 {
+        fill: url(#pattern_2);
+      }
+    </style>
+    <pattern id="pattern_2" data-name="pattern 2" width="2827.84" height="2566" patternTransform="matrix(0.21, 0, 0, -0.21, 1549.47, 558.75)" patternUnits="userSpaceOnUse" viewBox="0 0 2827.84 2566">
+      <rect class="cls-1" width="2827.84" height="2566"/>
+      <image class="cls-2" width="2838" height="2566" transform="matrix(1, 0, 0, -1, -5.08, 2566)" xlink:href="photo1.png"/>
+    </pattern>
+  </defs>
+  <polygon id="back" class="cls-3" points="0 9.95 585 0 593.99 529 8.99 538.95 0 9.95"/>
+</svg>
