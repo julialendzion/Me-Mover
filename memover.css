@@ -35,8 +35,15 @@ h2 {
   font-weight: 200;
 }
 
+h3 {
+  font-family: termina, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #78dede;
+}
+
 #circle {
-  top: -28vw;
+  top: -25vw;
   position: absolute;
   width: 74vw;
   left: 32vw;
@@ -55,4 +62,16 @@ video {
   justify-content: center;
   margin-top: 18em;
   max-width: 95%;
+}
+.nr1 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#bubbles {
+  margin-top: 8vw;
+}
+
+.text {
+  margin-top: 5vw;
 }
