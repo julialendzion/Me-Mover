@@ -22,6 +22,8 @@ body {
   background-image: url(/img/background_img.svg);
   background-size: 160%;
   background-position-x: -10vw;
+  margin: 0;
+  padding: 0;
 }
 header {
   height: 100vh;
@@ -43,13 +45,13 @@ a {
   font-family: termina, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.5vw;
+  font-size: 1.35vw;
   background-color: #f7f7f7;
   color: #78dede;
   width: 20vw;
   text-align: center;
   text-decoration: none;
-  margin: 1vw;
+  margin: 3vw;
   padding: 0.3vw;
   box-shadow: 10px 5px 5px #dad7d7;
 }
@@ -67,7 +69,6 @@ a {
 
 h3 {
   font-family: termina, sans-serif;
-  font-style: normal;
   font-weight: 600;
   color: #78dede;
   font-size: 1.8vw;
@@ -147,4 +148,47 @@ video {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  background-color: #78dede;
+}
+
+button {
+  display: block;
+
+  padding: 0.5vw;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  display: block;
+  margin: 1.5vw;
+  padding: 0.7vw;
+}
+
+#form_container {
+  position: relative;
+  margin: 10vw;
+  background-color: #f7f7f7;
+  border: solid;
+  border-color: #78dede;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5vw;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#line {
+  position: absolute;
+  left: 47%;
+  top: 20%;
+  height: 17vw;
 }
