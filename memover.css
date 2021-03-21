@@ -19,6 +19,16 @@ html {
 
 body {
   overflow-x: hidden;
+  background-image: url(/img/background_img.svg);
+  background-size: 160%;
+  background-position-x: -10vw;
+}
+header {
+  height: 100vh;
+}
+
+#logo {
+  width: 17vw;
 }
 
 h1 {
@@ -29,10 +39,30 @@ h1 {
   text-align: center;
   font-size: 8vw;
 }
-h2 {
+a {
   font-family: termina, sans-serif;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 400;
+  font-size: 1.5vw;
+  background-color: #f7f7f7;
+  color: #78dede;
+  width: 20vw;
+  text-align: center;
+  text-decoration: none;
+  margin: 1vw;
+  padding: 0.3vw;
+  box-shadow: 10px 5px 5px #dad7d7;
+}
+#box:hover {
+  cursor: pointer;
+  animation: zoom;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+  to {
+    transform: scale(0.99);
+  }
 }
 
 h3 {
@@ -40,6 +70,13 @@ h3 {
   font-style: normal;
   font-weight: 600;
   color: #78dede;
+  font-size: 1.8vw;
+}
+
+p {
+  font-family: termina, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 #circle {
@@ -60,12 +97,14 @@ video {
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
-  margin-top: 18em;
+
   max-width: 95%;
 }
 .nr1 {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
 }
 
 #bubbles {
@@ -73,5 +112,39 @@ video {
 }
 
 .text {
-  margin-top: 5vw;
+  margin-top: 7vw;
+  text-align: right;
+}
+
+.text2 {
+  margin-top: 7vw;
+  text-align: left;
+}
+
+#bubbles {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+#screen {
+  display: inline-block;
+  position: relative;
+}
+#playBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 96px;
+  height: 96px;
+}
+
+.hidden {
+  display: none;
+}
+
+.obrazek {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
