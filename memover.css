@@ -119,13 +119,15 @@ video {
 }
 
 .text {
-  margin-top: 7vw;
+  margin-top: 3vw;
   text-align: right;
+  margin-right: -8vw;
 }
 
 .text2 {
-  margin-top: 7vw;
+  margin-top: 3vw;
   text-align: left;
+  margin-left: -8vw;
 }
 
 #bubbles {
@@ -154,6 +156,7 @@ video {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 20vw;
 }
 
 footer {
@@ -285,7 +288,9 @@ li {
   }
   #box {
     margin-top: -5vw;
-    width: 90%;
+    width: 70%;
+    padding: 1vw 2vw;
+    margin-left: 12vw;
   }
   h1 {
     font-size: 19vw;
@@ -293,8 +298,8 @@ li {
   }
   #photo {
     width: 90vw;
-    top: 28vw;
-    left: 12vw;
+    top: 38vw;
+    left: 8vw;
   }
   #circle {
     width: 130vw;
@@ -302,37 +307,120 @@ li {
     left: 44vw;
   }
   a {
-    font-size: 6vw;
+    font-size: 5vw;
   }
   #bubbles {
     margin-top: 4vw;
   }
   #bubbles img {
-    max-width: 80%;
+    max-width: 90%;
+  }
+
+  .nr1 {
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+  }
+
+  .obrazek {
+    width: 70vw;
   }
   .text {
     padding: 0;
-    margin-top: 0;
+    margin-top: 20;
+    margin-right: 5vw;
   }
   .text2 {
     padding: 0;
-    margin-top: 0;
+    margin-top: 20;
+    margin-left: 5vw;
   }
+
   h3 {
     font-size: 3.2vw;
   }
   p {
     font-size: 2vw;
   }
-  footer {
+
+  button {
     padding: 1vw;
-    display: flex;
-    justify-content: flex-end;
+    width: 50vw;
+    height: 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #78dede;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 30px;
   }
-  footer p {
-    font-size: 5vw;
+
+  button:hover {
+    color: #78dede;
+    border: 0px solid #fff;
+    background-color: #fff;
+    box-shadow: 0 0 3px rgba(0, 48, 54, 0.3);
   }
+
+  input {
+    display: block;
+    margin: 2vw;
+    padding: 1vw;
+  }
+
+  #form_container {
+    grid-template-columns: 100%;
+    grid-column-gap: 5%;
+    align-items: center;
+  }
+
+  #form_container h3 {
+    color: #fff;
+    font-size: 6vw;
+    margin-top: 10vh;
+  }
+
+  form {
+    align-items: center;
+    margin-right: 10vw;
+    margin-top: 1vw;
+  }
+
+  .formbox {
+    width: 70vw;
+    height: 30px;
+  }
+
+  #msg {
+    margin-left: 20%;
+  }
+
   footer img {
-    width: 12vw;
+    width: 8vw;
+    margin-top: 10vh;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  footer img:hover {
+    width: 8.2vw;
+  }
+
+  ul {
+    list-style: circle;
+    padding-left: 0.5vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    margin-bottom: 10vh;
+  }
+  li {
+    margin: 0;
+    padding: 0.5vw;
+    font-family: termina, sans-serif;
+    font-weight: 500;
+    font-size: 3vw;
+    color: #fff;
+    font-family: termina, sans-serif;
   }
 }
