@@ -273,10 +273,66 @@ li {
 
 /**mobile version**/
 @media screen and (max-width: 700px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+  }
   #logo {
     width: 40vw;
   }
   #box {
-    width: 30vw;
+    margin-top: -5vw;
+    width: 90%;
+  }
+  h1 {
+    font-size: 19vw;
+    margin-top: -9vw;
+  }
+  #photo {
+    width: 90vw;
+    top: 28vw;
+    left: 12vw;
+  }
+  #circle {
+    width: 130vw;
+    top: -45vw;
+    left: 44vw;
+  }
+  a {
+    font-size: 6vw;
+  }
+  #bubbles {
+    margin-top: 4vw;
+  }
+  #bubbles img {
+    max-width: 80%;
+  }
+  .text {
+    padding: 0;
+    margin-top: 0;
+  }
+  .text2 {
+    padding: 0;
+    margin-top: 0;
+  }
+  h3 {
+    font-size: 3.2vw;
+  }
+  p {
+    font-size: 2vw;
+  }
+  footer {
+    padding: 1vw;
+    display: flex;
+    justify-content: flex-end;
+  }
+  footer p {
+    font-size: 5vw;
+  }
+  footer img {
+    width: 12vw;
   }
 }
