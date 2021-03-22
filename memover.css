@@ -158,7 +158,7 @@ footer {
   padding: 0;
   background-color: #78dede;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 button {
