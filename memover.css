@@ -241,12 +241,13 @@ li {
   }
   #photo {
     width: 90vw;
-    top: 30vw;
+    top: 28vw;
+    left: 12vw;
   }
   #circle {
     width: 130vw;
-    top: -40vw;
-    left: 50vw;
+    top: -45vw;
+    left: 44vw;
   }
   a {
     font-size: 6vw;
