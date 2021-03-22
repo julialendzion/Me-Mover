@@ -228,8 +228,12 @@ li {
 
 /**mobile version**/
 @media screen and (max-width: 700px) {
-  html {
-    width: 100vw;
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
   }
   #logo {
     width: 40vw;
@@ -254,5 +258,36 @@ li {
   }
   a {
     font-size: 6vw;
+  }
+  #bubbles {
+    margin-top: 4vw;
+  }
+  #bubbles img {
+    max-width: 80%;
+  }
+  .text {
+    padding: 0;
+    margin-top: 0;
+  }
+  .text2 {
+    padding: 0;
+    margin-top: 0;
+  }
+  h3 {
+    font-size: 3.2vw;
+  }
+  p {
+    font-size: 2vw;
+  }
+  footer {
+    padding: 1vw;
+    display: flex;
+    justify-content: right;
+  }
+  footer p {
+    font-size: 5vw;
+  }
+  footer img {
+    width: 12vw;
   }
 }
