@@ -19,8 +19,8 @@ html {
 
 body {
   overflow-x: hidden;
-  background-image: url(/img/background_img.svg);
-  background-size: 160%;
+  background-image: url(/img/background.svg);
+  background-size: 120%;
   background-position-x: -10vw;
   margin: 0;
   padding: 0;
@@ -46,11 +46,14 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 1.35vw;
-  background-color: #f7f7f7;
+  text-decoration: none;
   color: #78dede;
+}
+#box {
+  background-color: #f7f7f7;
   width: 20vw;
   text-align: center;
-  text-decoration: none;
+
   margin: 3vw;
   padding: 0.3vw;
   box-shadow: 10px 5px 5px #dad7d7;
@@ -154,15 +157,18 @@ footer {
   margin: 0;
   padding: 0;
   background-color: #78dede;
+  display: flex;
+  justify-content: end;
 }
 
 button {
   display: block;
-
   padding: 0.5vw;
   width: auto;
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
+  color: #78dede;
+  background-color: #f7f7f7;
 }
 
 input {
@@ -184,6 +190,7 @@ input {
   padding: 5vw;
   display: grid;
   grid-template-columns: 50% 50%;
+  grid-column-gap: 5%;
 }
 
 #line {
@@ -191,4 +198,30 @@ input {
   left: 47%;
   top: 20%;
   height: 17vw;
+}
+
+footer img {
+  width: 3.5vw;
+  padding: 0.6vw;
+}
+
+footer p {
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+ul {
+  list-style: circle;
+  padding-left: 0.5vw;
+  margin-top: -0.6vw;
+  margin-left: 0.7vw;
+}
+
+li {
+  margin: 0;
+  padding: 0.2vw;
+  font-family: termina, sans-serif;
+  font-weight: 200;
+  font-size: 0.85vw;
 }
