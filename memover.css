@@ -45,21 +45,22 @@ a {
   font-family: termina, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.35vw;
+  font-size: 1.6vw;
   text-decoration: none;
   color: #fff;
 }
 #box {
-  width: 20vw;
+  position: relative;
+  width: 27vw;
   text-align: center;
-  margin: 3vw;
-  padding: 0.5vw 1vw;
+  margin-top: -25vw;
+  margin-left: 60vw;
+  padding: 1vw 1.5vw;
   box-shadow: 0px 2px 5px #2f313138;
   background-color: #78dede;
   border-radius: 50px;
   text-align: center;
   font-weight: 400;
-  margin-top: 10px;
 }
 #box:hover {
   cursor: pointer;
