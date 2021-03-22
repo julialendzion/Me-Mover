@@ -282,7 +282,7 @@ li {
   footer {
     padding: 1vw;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
   }
   footer p {
     font-size: 5vw;
