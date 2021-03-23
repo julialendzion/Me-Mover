@@ -276,6 +276,10 @@ li {
   font-family: termina, sans-serif;
 }
 
+a p {
+  color: #78dede;
+}
+
 /**mobile version**/
 @media screen and (max-width: 700px) {
   html,
