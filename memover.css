@@ -19,7 +19,7 @@ html {
 
 body {
   overflow-x: hidden;
-  background-image: url(/Me-Mover/img/background.svg);
+  background-image: url(img/background.svg);
   background-size: 120%;
   background-position-x: -10vw;
   margin: 0;
@@ -276,6 +276,10 @@ li {
   font-family: termina, sans-serif;
 }
 
+#arrow {
+  display: none;
+}
+
 a p {
   color: #78dede;
 }
@@ -307,6 +311,7 @@ a p {
     top: 38vw;
     left: 8vw;
   }
+
   #circle {
     width: 130vw;
     top: -45vw;
@@ -428,5 +433,22 @@ a p {
     font-size: 3vw;
     color: #fff;
     font-family: termina, sans-serif;
+  }
+  #arrow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    animation: pulse 3s infinite;
+  }
+
+  @keyframes pulse {
+    0%,
+    100% {
+      transform: translateY(10px);
+    }
+    50% {
+      transform: translateY(30px);
+    }
   }
 }
