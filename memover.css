@@ -76,7 +76,7 @@ a {
   }
 }
 
-h3 {
+h2 {
   font-family: termina, sans-serif;
   font-weight: 600;
   color: #78dede;
@@ -211,7 +211,7 @@ input {
   color: #fff;
 }
 
-#form_container h3 {
+#form_container h2 {
   color: #fff;
   font-size: 2vw;
 }
@@ -340,11 +340,11 @@ li {
     margin-left: 5vw;
   }
 
-  h3 {
+  h2 {
     font-size: 3.2vw;
   }
   p {
-    font-size: 2vw;
+    font-size: 2.4vw;
   }
 
   button {
@@ -379,7 +379,7 @@ li {
     align-items: center;
   }
 
-  #form_container h3 {
+  #form_container h2 {
     color: #fff;
     font-size: 6vw;
     margin-top: 10vh;
@@ -438,9 +438,9 @@ li {
 
   @keyframes pulse {
     0%, 100% {
-      transform: translateY(10px);
+      transform: translateY(0);
     }
     50% {
-      transform: translateY(30px);
+      transform: translateY(20px);
     }
 }
