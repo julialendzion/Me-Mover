@@ -20,7 +20,7 @@ html {
 
 body {
   overflow-x: hidden;
-  background-image: url(/img/background.svg);
+  background-image: url(img/background.svg);
   background-size: 120%;
   background-position-x: -10vw;
   margin: 0;
